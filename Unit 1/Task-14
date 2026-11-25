@@ -1,1 +1,9 @@
+a = 10
+b = 5
+c = 2
 
+print("Addition and Multiplication:", a + b * c)
+print("Using Parentheses:", (a + b) * c)
+print("Division and Addition:", a + b / c)
+print("Subtraction:", a - b - c)
+print("Power:", a ** b ** c)
