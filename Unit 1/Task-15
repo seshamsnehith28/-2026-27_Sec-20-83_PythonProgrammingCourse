@@ -1,5 +1,5 @@
-a = "10"
-b = 20
+a = int(input("enter number of a:"))
+b = int(input("enter number of b:"))
 
 # String to Integer
 x = int(a)
