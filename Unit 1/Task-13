@@ -1,4 +1,4 @@
-list1 = [10, 20, 30, 40, 50]
+list1 = [9,8,7,6,5]
 
 num = int(input("Enter a number: "))
 
