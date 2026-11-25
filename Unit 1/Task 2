@@ -1,6 +1,5 @@
-num1 = int(input("Enter first number: "))
-num2 = int(input("Enter second number: "))
+num = int(input("Enter a number: "))
 
-sum = num1 + num2
+square = num ** 2
 
-print("Sum =", sum)
+print("Square =", square)
