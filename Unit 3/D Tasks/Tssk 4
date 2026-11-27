@@ -1,0 +1,15 @@
+def simple_interest(principal, time, rate=5):
+    si = (principal * time * rate) / 100
+    return si
+
+p = float(input("Enter principal amount: "))
+t = float(input("Enter time: "))
+
+# Using default rate
+si1 = simple_interest(p, t)
+print("Simple Interest (Default Rate 5%):", si1)
+
+# Using explicit rate
+r = float(input("Enter rate of interest: "))
+si2 = simple_interest(p, t, r)
+print("Simple Interest (Explicit Rate):", si2)
